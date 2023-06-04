@@ -1,5 +1,6 @@
 # EE6470final
-#HLS
+
+# HLS
 cd BFS_unroll/stratus
 make sim_V_BASIC
 
