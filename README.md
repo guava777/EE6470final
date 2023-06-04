@@ -1,13 +1,17 @@
 # EE6470final
 
 # HLS
-cd BFS_unroll/stratus /n
+cd BFS_unroll/stratus 
+
 make sim_V_BASIC
 
 # RISCV
-cd vp/build/ /n
-cmake .. /n
-make /n
+cd vp/build
 
-cd sw/basic-sobel /n
+cmake .. 
+
+make 
+
+cd sw/basic-sobel 
+
 make
